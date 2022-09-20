@@ -88,3 +88,10 @@ break;
 }
  const total = carrito.reduce((acc, item) => acc + item.precio * el.unidades, 0);
 console.log(`el total a pagar por su compra es de: ${total}`);
+
+const input1 = document.getElementById('nombre');
+const input2 = document.getElementById('edad');
+
+input1.onkeyup = () =>{
+    console.log('keyup')
+}
