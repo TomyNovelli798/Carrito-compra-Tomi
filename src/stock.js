@@ -6,7 +6,7 @@ const productos =
         tipo: "Reloj",
         desc: "Reloj Rolex",
         precio: 195000,
-        img: '',
+        img: '/assets/imagenes/rolex.jpg',
         cantidad:1
     },
 
@@ -16,7 +16,7 @@ const productos =
         tipo: "Collar",
         desc: "Collar de acero inoxidable",
         precio: 4500,
-        img: '',
+        img: '/assets/imagenes/collar asian.jpg',
         cantidad:1
     },
 
@@ -27,7 +27,7 @@ const productos =
         desc: "Anillo de oro con grabados",
         precio: 900,
         talle: "19mm",
-        img: '',
+        img: '/assets/imagenes/anillo dark royal.jpg',
         cantidad:1
     },
 
@@ -37,7 +37,7 @@ const productos =
         tipo: "Lentes",
         desc: "Lentes Hugo Boss",
         precio: 14500,
-        img: '',
+        img: '/assets/imagenes/Lentes blaze.jpg',
         cantidad:1
     },
 
@@ -47,7 +47,7 @@ const productos =
         tipo: "Aros",
         desc: "Aros de plata",
         precio: 2000,
-        img: '',
+        img: '/assets/imagenes/aro square.jpg',
         cantidad:1
     },
 ];

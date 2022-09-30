@@ -1,4 +1,4 @@
-import { guardarCarritoStorage } from "./storage.js";
+import { guardarCarritoStorage } from "./almacenamiento.js";
 
 const actualizarTotalesCarrito = (carrito) => {
     const totalCantidad = carrito.reduce((acc, item) => acc + item.cantidad, 0);
