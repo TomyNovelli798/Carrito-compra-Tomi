@@ -1,3 +1,14 @@
+Swal.fire('Este es un modal con sweetalert');
+const btn = document.getElementById('btn-comprar');
+
+btn.addEventListener('click', () => {
+    Swal.fire({
+    icon: 'success',
+        title: 'Felicidades',
+        text: 'Su compra ha sido realizada con éxito!'
+    })
+})
+
 import { validarProductoCarrito } from "./src/accionesCarrito.js";
 
 const mostrarProductos = (productos) => {
@@ -13,10 +24,8 @@ productos.forEach(producto => {
                     </div>
                     <div class="card-content">
                         <p>${producto.desc}</p>
-                        <p>Talle: ${producto.talle}</p>
                         <p>${producto.precio}</p>
-                    </div>
-                    `
+                    </div>`
     contenedorProductos.appendChild(div);
 
     const boton = document.getElementById(`boton${producto.id}`);

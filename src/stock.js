@@ -16,7 +16,7 @@ const productos =
         tipo: "Collar",
         desc: "Collar de acero inoxidable",
         precio: 4500,
-        img: '/assets/imagenes/collar asian.jpg',
+        img: '/assets/imagenes/collarasian.jpg',
         cantidad:1
     },
 
@@ -27,7 +27,7 @@ const productos =
         desc: "Anillo de oro con grabados",
         precio: 900,
         talle: "19mm",
-        img: '/assets/imagenes/anillo dark royal.jpg',
+        img: '/assets/imagenes/anillodarkroyal.jpg',
         cantidad:1
     },
 
@@ -37,7 +37,7 @@ const productos =
         tipo: "Lentes",
         desc: "Lentes Hugo Boss",
         precio: 14500,
-        img: '/assets/imagenes/Lentes blaze.jpg',
+        img: '/assets/imagenes/lentesblaze.jpg',
         cantidad:1
     },
 
@@ -47,7 +47,7 @@ const productos =
         tipo: "Aros",
         desc: "Aros de plata",
         precio: 2000,
-        img: '/assets/imagenes/aro square.jpg',
+        img: '/assets/imagenes/arosquare.jpg',
         cantidad:1
     },
 ];

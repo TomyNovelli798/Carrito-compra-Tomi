@@ -1,4 +1,5 @@
-import { mostrarProductos } from "./App.js"
+
+import { mostrarProductos } from "./app.js"
 import { actualizarTotalesCarrito } from "./src/actualizarCarrito.js";
 import { productos } from "./src/stock.js";
 import { obtenerCarritoStorage } from "./src/almacenamiento.js";
