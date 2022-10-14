@@ -2,7 +2,7 @@ const productos =
 [
     {
         id: 1,
-        nombre: "Reloj 1",
+        nombre: "Reloj",
         tipo: "Reloj",
         desc: "Reloj Rolex",
         precio: 195000,
@@ -12,42 +12,42 @@ const productos =
 
     {
         id: 2,
-        nombre: "Collar 1",
+        nombre: "Collar",
         tipo: "Collar",
-        desc: "Collar de acero inoxidable",
+        desc: "Collar de acero quirurgico",
         precio: 4500,
-        img: '/assets/imagenes/collarasian.jpg',
+        img: '/assets/imagenes/collarAsian.jpg',
         cantidad:1
     },
 
     {
         id: 3,
-        nombre: "Anillo 1",
+        nombre: "Anillo ",
         tipo: "Anillo",
-        desc: "Anillo de oro con grabados",
+        desc: "Anillo Royal con grabados",
         precio: 900,
         talle: "19mm",
-        img: '/assets/imagenes/anillodarkroyal.jpg',
+        img: '/assets/imagenes/anilloDarkRoyal.jpg',
         cantidad:1
     },
 
     {
         id: 4,
-        nombre: "Lentes 1",
+        nombre: "Lentes ",
         tipo: "Lentes",
         desc: "Lentes Hugo Boss",
         precio: 14500,
-        img: '/assets/imagenes/lentesblaze.jpg',
+        img: '/assets/imagenes/lentesBlaze.jpg',
         cantidad:1
     },
 
     {
         id: 5,
-        nombre: "Aros 2",
+        nombre: "Aros",
         tipo: "Aros",
         desc: "Aros de plata",
         precio: 2000,
-        img: '/assets/imagenes/arosquare.jpg',
+        img: '/assets/imagenes/aroSquare.jpg',
         cantidad:1
     },
 ];
