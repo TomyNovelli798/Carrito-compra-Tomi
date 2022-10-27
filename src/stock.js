@@ -5,7 +5,7 @@ const productos =
         nombre: "Reloj",
         tipo: "Reloj",
         desc: "Reloj Rolex",
-        precio: 195000,
+        precio: "195000",
         img: '/assets/imagenes/rolex.jpg',
         cantidad:1
     },
@@ -15,7 +15,7 @@ const productos =
         nombre: "Collar",
         tipo: "Collar",
         desc: "Collar de acero quirurgico",
-        precio: 4500,
+        precio: "4500",
         img: '/assets/imagenes/collarAsian.jpg',
         cantidad:1
     },
@@ -25,7 +25,7 @@ const productos =
         nombre: "Anillo ",
         tipo: "Anillo",
         desc: "Anillo Royal con grabados",
-        precio: 900,
+        precio: "900",
         talle: "19mm",
         img: '/assets/imagenes/anilloDarkRoyal.jpg',
         cantidad:1
@@ -36,7 +36,7 @@ const productos =
         nombre: "Lentes ",
         tipo: "Lentes",
         desc: "Lentes Hugo Boss",
-        precio: 14500,
+        precio: "14500",
         img: '/assets/imagenes/lentesBlaze.jpg',
         cantidad:1
     },
@@ -46,7 +46,7 @@ const productos =
         nombre: "Aros",
         tipo: "Aros",
         desc: "Aros de plata",
-        precio: 2000,
+        precio: "2000",
         img: '/assets/imagenes/aroSquare.jpg',
         cantidad:1
     },

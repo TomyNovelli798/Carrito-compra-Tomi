@@ -1,4 +1,4 @@
-Swal.fire('Este es un modal con sweetalert');
+//Swal.fire('Este es un modal con sweetalert');
 const btn = document.getElementById('btn-comprar');
 
 btn.addEventListener('click', () => {
@@ -7,12 +7,14 @@ btn.addEventListener('click', () => {
         title: 'Felicidades',
         text: 'Su compra ha sido realizada con éxito!'
     })
-})
+});
 
 import { validarProductoCarrito } from "./src/accionesCarrito.js";
 
 const mostrarProductos = (productos) => {
 const contenedorProductos = document.getElementById("producto-contenedor");
+
+contenedorProductos.innerHTML = '';
 
 productos.forEach(producto => {
     const div = document.createElement('div');
@@ -30,9 +32,9 @@ productos.forEach(producto => {
 
     const boton = document.getElementById(`boton${producto.id}`);
     boton.addEventListener('click', () => {
-    validarProductoCarrito(producto.id);
-    })
+    validarProductoCarrito(producto.id)
+    });
 });
 };
 
-export { mostrarProductos };
+export { mostrarProductos};
